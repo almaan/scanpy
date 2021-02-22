@@ -33,9 +33,6 @@ __pycache__/
 /scanpy.egg-info/
 /*-env/
 /env-*/
-# As long as we have setup.py in our repo, the following line is required
-# to avoid that setup.py being bundled in a flit-generated sdist.
-/setup.py
 
 # OS stuff
 .DS_Store

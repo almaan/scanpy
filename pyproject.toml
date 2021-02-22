@@ -109,7 +109,10 @@ test = [
 scanpy = 'scanpy.cli:console_main'
 
 [tool.flit.sdist]
-exclude = ['scanpy/tests']
+exclude = [
+    'scanpy/tests',
+    'setup.py',
+]
 
 [tool.pytest.ini_options]
 python_files = 'test_*.py'
